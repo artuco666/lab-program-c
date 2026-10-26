@@ -1,33 +1,41 @@
-# lab-program-c
-Repositório dedicado ao armazenamento, organização e versionamento das atividades práticas, listas de exercícios e projetos desenvolvidos ao longo da disciplina de **Laboratório de Programação**, com o objetivo de consolidar os conceitos fundamentais e avançados da **Linguagem C** e construir um portfólio técnico.
+# Laboratório de Programação - Exercícios (Aulas 14 a 17)
 
----
+Este repositório contém todos os exercícios desenvolvidos nas Aulas 14 a 17 da disciplina de Laboratório de Programação (Linguagem C).
 
-## 📂 Estrutura do Repositório
+## 📁 Estrutura de Pastas
 
-Os códigos e arquivos fonte estão organizados em pastas nomeadas de acordo com as aulas e tópicos abordados:
-
-```text
-laboratorio-programacao-c/
-├── aula-01/          # Introdução à linguagem, I/O básico e tipos de dados
-├── aula-02/          # Estruturas condicionais (if, switch)
-├── aula-03/          # Estruturas de repetição (while, for, do-while)
-├── aula-04/          # Vetores (arrays) e Matrizes
-├── aula-05/          # Funções e modularização
-├── aula-06/          # Ponteiros e alocação dinâmica
-├── aula-07/          # Manipulação de arquivos (TXT/Binários)
-└── README.md         # Documentação do repositório
 ```
-🚀 Tecnologias e Ferramentas
-Linguagem: C (Padrão C99 / C11)
+lab-programacao/
+├── README.md
+├── aula14/
+│   ├── ex01_matriz2x2_tabela.c
+│   ├── ex02_leitura_matriz2x2.c
+│   ├── ex03_soma_matriz3x3.c
+│   └── ex04_assentos_cinema_decl.c
+├── aula15/
+│   ├── ex01_controle_assentos_cinema.c
+│   ├── ex02_soma_matriz2x3.c
+│   ├── ex03_medias_alunos.c
+│   ├── ex04_contagem_pares_3x3.c
+│   └── ex05_maior_valor_3x3.c
+├── aula16/
+│   ├── ex01_contador_caracteres.c
+│   ├── ex02_leitura_nome_completo.c
+│   ├── ex03_primeiro_caractere.c
+│   ├── ex04_caracteres_linha_por_linha.c
+│   └── ex05_vogais_minusculas.c
+└── aula17/
+    ├── ex01_cadastro_usuarios.c
+    ├── ex02_cadastro_produtos.c
+    └── ex03_identificacao_academica.c
+```
 
-Compilador: GCC (GNU Compiler Collection)
+## 🛠️ Como Compilar e Executar
 
-Ambiente de Desenvolvimento: Windows / VS Code
+Utilizando o compilador `gcc`:
 
-Controle de Versão: Git e GitHub
-
-👨‍💻 Autor
-Arthur Intra
-
-Estudante de Ciéncia da Computação — Universidade Vila Velha
+```bash
+# Exemplo para compilar o exercício 1 da Aula 14
+gcc aula14/ex01_matriz2x2_tabela.c -o ex01
+./ex01
+```
