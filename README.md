@@ -23,11 +23,11 @@ Linguagem: C (Padrão C99 / C11)
 
 Compilador: GCC (GNU Compiler Collection)
 
-Ambiente de Desenvolvimento: Linux / VS Code
+Ambiente de Desenvolvimento: Windows / VS Code
 
 Controle de Versão: Git e GitHub
 
 👨‍💻 Autor
 Arthur Intra
 
-Estudante de Computação / Engenharia — Universidade Federal
+Estudante de Ciéncia da Computação — Universidade Vila Velha
